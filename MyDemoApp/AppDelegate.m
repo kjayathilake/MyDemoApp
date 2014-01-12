@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LoginViewController.h"
 
 @implementation AppDelegate
 
@@ -14,6 +15,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    LoginViewController *login = [[LoginViewController alloc]initWithNibName:nil bundle:nil];
+    UINavigationController *navigation = [[UINavigationController alloc]initWithRootViewController:login];
+    self.window.rootViewController = navigation;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

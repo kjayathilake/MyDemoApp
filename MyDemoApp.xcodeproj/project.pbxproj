@@ -19,6 +19,7 @@
 		D8EAC5C2188256F9008C2C22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EAC5AA188256F8008C2C22 /* UIKit.framework */; };
 		D8EAC5CA188256F9008C2C22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8EAC5C8188256F9008C2C22 /* InfoPlist.strings */; };
 		D8EAC5CC188256F9008C2C22 /* MyDemoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EAC5CB188256F9008C2C22 /* MyDemoAppTests.m */; };
+		D8EAC5D718825A55008C2C22 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EAC5D618825A55008C2C22 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		D8EAC5C7188256F9008C2C22 /* MyDemoAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyDemoAppTests-Info.plist"; sourceTree = "<group>"; };
 		D8EAC5C9188256F9008C2C22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D8EAC5CB188256F9008C2C22 /* MyDemoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDemoAppTests.m; sourceTree = "<group>"; };
+		D8EAC5D518825A55008C2C22 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		D8EAC5D618825A55008C2C22 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,7 @@
 		D8EAC5AC188256F8008C2C22 /* MyDemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				D8EAC5D818825A61008C2C22 /* Controllers */,
 				D8EAC5B5188256F8008C2C22 /* AppDelegate.h */,
 				D8EAC5B6188256F8008C2C22 /* AppDelegate.m */,
 				D8EAC5B8188256F8008C2C22 /* Images.xcassets */,
@@ -142,6 +146,15 @@
 				D8EAC5C8188256F9008C2C22 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8EAC5D818825A61008C2C22 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D8EAC5D518825A55008C2C22 /* LoginViewController.h */,
+				D8EAC5D618825A55008C2C22 /* LoginViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +254,7 @@
 			files = (
 				D8EAC5B7188256F8008C2C22 /* AppDelegate.m in Sources */,
 				D8EAC5B3188256F8008C2C22 /* main.m in Sources */,
+				D8EAC5D718825A55008C2C22 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
