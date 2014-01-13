@@ -5,19 +5,31 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>26DF918B-7C1B-4BAC-BDB6-61E25C5E8F18</string>
+=======
+	<string>5881D3B4-CFEE-4DDC-BED5-47B16A5DDAF9</string>
+>>>>>>> 158862b67beaf30047f9ffdb4a75a0d686560d8a
 	<key>IDESourceControlProjectName</key>
 	<string>MyDemoApp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>4DADD9E7-EAAE-4EB8-B887-00B9E58489B4</key>
+=======
+		<key>7A82E8C0-726B-4813-9AD3-7D689F78225D</key>
+>>>>>>> 158862b67beaf30047f9ffdb4a75a0d686560d8a
 		<string>https://github.com/krishtc/MyDemoApp.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>MyDemoApp.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>4DADD9E7-EAAE-4EB8-B887-00B9E58489B4</key>
+=======
+		<key>7A82E8C0-726B-4813-9AD3-7D689F78225D</key>
+>>>>>>> 158862b67beaf30047f9ffdb4a75a0d686560d8a
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +37,22 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
+<<<<<<< HEAD
 	<string>4DADD9E7-EAAE-4EB8-B887-00B9E58489B4</string>
+=======
+	<string>7A82E8C0-726B-4813-9AD3-7D689F78225D</string>
+>>>>>>> 158862b67beaf30047f9ffdb4a75a0d686560d8a
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+<<<<<<< HEAD
 			<string>4DADD9E7-EAAE-4EB8-B887-00B9E58489B4</string>
+=======
+			<string>7A82E8C0-726B-4813-9AD3-7D689F78225D</string>
+>>>>>>> 158862b67beaf30047f9ffdb4a75a0d686560d8a
 			<key>IDESourceControlWCCName</key>
 			<string>MyDemoApp</string>
 		</dict>
