@@ -20,6 +20,8 @@
     UINavigationController *navigation = [[UINavigationController alloc]initWithRootViewController:login];
     self.window.rootViewController = navigation;
     
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

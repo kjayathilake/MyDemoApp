@@ -20,6 +20,7 @@
 		D8EAC5CA188256F9008C2C22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8EAC5C8188256F9008C2C22 /* InfoPlist.strings */; };
 		D8EAC5CC188256F9008C2C22 /* MyDemoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EAC5CB188256F9008C2C22 /* MyDemoAppTests.m */; };
 		D8EAC5D718825A55008C2C22 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EAC5D618825A55008C2C22 /* LoginViewController.m */; };
+		D8EAC7191882B499008C2C22 /* Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EAC7181882B499008C2C22 /* Colors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D8EAC5CB188256F9008C2C22 /* MyDemoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDemoAppTests.m; sourceTree = "<group>"; };
 		D8EAC5D518825A55008C2C22 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		D8EAC5D618825A55008C2C22 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		D8EAC7171882B499008C2C22 /* Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colors.h; sourceTree = "<group>"; };
+		D8EAC7181882B499008C2C22 /* Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colors.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,7 @@
 		D8EAC5AC188256F8008C2C22 /* MyDemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				D8EAC5D91882B451008C2C22 /* Utils */,
 				D8EAC5D818825A61008C2C22 /* Controllers */,
 				D8EAC5B5188256F8008C2C22 /* AppDelegate.h */,
 				D8EAC5B6188256F8008C2C22 /* AppDelegate.m */,
@@ -155,6 +159,15 @@
 				D8EAC5D618825A55008C2C22 /* LoginViewController.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D8EAC5D91882B451008C2C22 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D8EAC7171882B499008C2C22 /* Colors.h */,
+				D8EAC7181882B499008C2C22 /* Colors.m */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +228,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = D8EAC59A188256F8008C2C22;
 			productRefGroup = D8EAC5A4188256F8008C2C22 /* Products */;
@@ -253,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8EAC5B7188256F8008C2C22 /* AppDelegate.m in Sources */,
+				D8EAC7191882B499008C2C22 /* Colors.m in Sources */,
 				D8EAC5B3188256F8008C2C22 /* main.m in Sources */,
 				D8EAC5D718825A55008C2C22 /* LoginViewController.m in Sources */,
 			);
@@ -313,7 +328,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -353,7 +368,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -375,6 +390,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyDemoApp/MyDemoApp-Prefix.pch";
 				INFOPLIST_FILE = "MyDemoApp/MyDemoApp-Info.plist";
@@ -388,6 +405,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyDemoApp/MyDemoApp-Prefix.pch";
 				INFOPLIST_FILE = "MyDemoApp/MyDemoApp-Info.plist";
@@ -457,6 +476,7 @@
 				D8EAC5D1188256F9008C2C22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8EAC5D2188256F9008C2C22 /* Build configuration list for PBXNativeTarget "MyDemoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +485,7 @@
 				D8EAC5D4188256F9008C2C22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
